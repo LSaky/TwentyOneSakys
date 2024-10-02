@@ -2,13 +2,16 @@ html {
     font-size: 62.5%;
 }
 body {
-    background-color: #f5f3f3
+    background-color: #000000
 }
 h1 {
     text-align: center;
+    color: white;
 }
 h2 {
-    font-size: 3rem;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Impact', sans-serif;
 }
 h4 {
     font-size: 16px;
@@ -16,7 +19,7 @@ h4 {
 }
 header {
     padding: 20px 0 0 0;
-    background: white;
+    background: rgb(2, 0, 0);
     text-align: center;
 }
 @media (min-width: 750px) {
@@ -58,7 +61,7 @@ ul {
 
     top:100%;
     z-index: 1;
-    background-color: white;
+    background-color: rgb(177, 153, 153);
     padding: 20px;
     min-height: 400px;
     min-width: 300px;
@@ -72,7 +75,7 @@ ul {
 }
 .contenido-hero {
     margin-top: 80px;
-    color: white;
+    color: rgb(197, 14, 14);
 }
 .contenido-hero form {
     position: relative;
@@ -100,16 +103,16 @@ ul {
 
 .barra {
     padding: 20px 0;
-    background: #741d51; /* Old browsers */
-    background: -moz-linear-gradient(left, #741d51 0%, #e44e52 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #741d51 0%,#e44e52 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #741d51 0%,#e44e52 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: #000000; /* Old browsers */
+    background: -moz-linear-gradient(left, #000000 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff0000 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #f70000 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', endColorstr='#e44e52',GradientType=1 ); /* IE6-9 */
 }
 
 .barra p {
     margin:0;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .icono {
     background-repeat: no-repeat;
@@ -143,8 +146,8 @@ ul {
 
 .card {
     text-align: center;
-    border: 1px solid #e1e1e1;
-    background: white;
+    border: 1px solid #e6e6e6;
+    background: rgb(172, 11, 11);
 }
 @media (min-width: 550px) {
     .card {
@@ -172,11 +175,17 @@ ul {
 
 .footer {
     margin-top: 40px;
-    border-top:1px solid #aaa;;
+    border-top:1px solid #ffffff;;
     padding-top: 40px;   
+    background-color: rgb(255, 0, 0);
 }
 .footer .menu a{
 display: block;
 margin-bottom: 10px;
 text-decoration: none;
+font-size: 2rem;
+font-weight: bold;
+font-style: italic;
+font-family: 'Brush Script MT', cursive;
+
 }
